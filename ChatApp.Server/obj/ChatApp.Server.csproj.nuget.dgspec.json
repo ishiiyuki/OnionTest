@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\OnionTest\\ChatApp.Server\\ChatApp.Server.csproj": {}
+  },
+  "projects": {
+    "d:\\OnionTest\\ChatApp.Server\\ChatApp.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\OnionTest\\ChatApp.Server\\ChatApp.Server.csproj",
+        "projectName": "ChatApp.Server",
+        "projectPath": "d:\\OnionTest\\ChatApp.Server\\ChatApp.Server.csproj",
+        "packagesPath": "C:\\Users\\mizuk\\.nuget\\packages\\",
+        "outputPath": "d:\\OnionTest\\ChatApp.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mizuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/opentelemetry/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "d:\\OnionTest\\ChatApp.Shared\\ChatApp.Shared.csproj": {
+                "projectPath": "d:\\OnionTest\\ChatApp.Shared\\ChatApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MagicOnion.Hosting": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\OnionTest\\ChatApp.Shared\\ChatApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\OnionTest\\ChatApp.Shared\\ChatApp.Shared.csproj",
+        "projectName": "ChatApp.Shared",
+        "projectPath": "d:\\OnionTest\\ChatApp.Shared\\ChatApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\mizuk\\.nuget\\packages\\",
+        "outputPath": "d:\\OnionTest\\ChatApp.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mizuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MagicOnion.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "MagicOnion.MSBuild.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "MessagePack.MSBuild.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.323, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
